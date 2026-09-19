@@ -1,0 +1,17 @@
+{
+    "name": "google-brand-search-scraper",
+    "version": "1.0.0",
+    "description": "Google brand search scraper with reCAPTCHA solver using rebrowser-playwright",
+    "type": "module",
+    "main": "search-and-scrape.mjs",
+    "scripts": {
+        "start": "node search-and-scrape.mjs",
+        "search": "node search-and-scrape.mjs"
+    },
+    "dependencies": {
+        "rebrowser-playwright": "^1.49.1"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
