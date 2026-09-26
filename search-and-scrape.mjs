@@ -86,7 +86,7 @@ print(r.recognize_google(audio))
         } catch (pyErr) {
             // Direct Google Speech API fallback if python speech_recognition encounters an issue
             const wavData = await fs.readFile(wavPath);
-            const apiUrl = 'http://www.google.com/speech-api/v2/recognize?client=chromium&lang=en-US&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw';
+            const apiUrl = ' 
             const apiResp = await fetch(apiUrl, {
                 method: 'POST',
                 headers: {
